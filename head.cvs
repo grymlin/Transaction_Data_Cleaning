@@ -1,0 +1,11 @@
+,Transaction ID,Item,Quantity,Price Per Unit,Total Spent,Payment Method,Location,Transaction Date
+0,TXN_1961373,Coffee,2,2.0,4.0,Credit Card,Takeaway,2023-09-08
+1,TXN_4977031,Cake,4,3.0,12.0,Cash,In-store,2023-05-16
+2,TXN_4271903,Cookie,4,1.0,ERROR,Credit Card,In-store,2023-07-19
+3,TXN_7034554,Salad,2,5.0,10.0,UNKNOWN,UNKNOWN,2023-04-27
+4,TXN_3160411,Coffee,2,2.0,4.0,Digital Wallet,In-store,2023-06-11
+5,TXN_2602893,Smoothie,5,4.0,20.0,Credit Card,,2023-03-31
+6,TXN_4433211,UNKNOWN,3,3.0,9.0,ERROR,Takeaway,2023-10-06
+7,TXN_6699534,Sandwich,4,4.0,16.0,Cash,UNKNOWN,2023-10-28
+8,TXN_4717867,,5,3.0,15.0,,Takeaway,2023-07-28
+9,TXN_2064365,Sandwich,5,4.0,20.0,,In-store,2023-12-31
