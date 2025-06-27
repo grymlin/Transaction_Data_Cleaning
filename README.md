@@ -1,15 +1,13 @@
 # Cafe Sales Data Cleaning
 
-This project demonstrates how to clean, validate, and visualize transaction data from a cafe sales dataset. It addresses common data quality issues such as missing values, inconsistent formats, invalid entries, and outliers. The workflow includes both code and visualizations to help you understand the impact of each cleaning step.
+This project demonstrates how to clean, validate, and visualize transaction data from a cafe sales dataset. It addresses common data quality issues such as missing values, inconsistent formats, invalid entries, and outliers. The workflow includes both code and visualizations to help understand the impact of each cleaning step.
 
 ---
-
 ## Project Overview
 
+- **Data Exploration:** Examine the raw dataset to identify data quality issues, patterns, and potential outliers.
 - **Data Cleaning:** Handle missing values, fix data types, standardize categorical values, and correct inconsistencies.
 - **Data Validation:** Compare raw and cleaned data to ensure integrity, consistency, and readiness for analysis.
-- **Visualization:** Use charts to illustrate the effects of cleaning and validation.
-
 ---
 
 ## Example Visualizations
