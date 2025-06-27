@@ -43,6 +43,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+### 1. Missing Values Before and After Cleaning
+
 ![NaN Counts Before and After Cleaning](notebooks/nan_counts.png)
 
 
