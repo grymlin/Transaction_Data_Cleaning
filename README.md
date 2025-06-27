@@ -14,36 +14,7 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ## Example Visualizations
 
-### 1. Missing Values Before and After Cleaning
-
-```python
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
-
-# Example: Replace with your actual data loading
-raw_df = pd.read_csv("data/dirty_cafe_sales.csv")
-clean_df = pd.read_csv("notebooks/cleaned_cafe_sales.csv")
-
-nan_counts_before = [raw_df['Quantity'].isna().sum(), raw_df['Price Per Unit'].isna().sum(), raw_df['Total Spent'].isna().sum()]
-nan_counts_after = [clean_df['Quantity'].isna().sum(), clean_df['Price Per Unit'].isna().sum(), clean_df['Total Spent'].isna().sum()]
-
-nan_compare_df = pd.DataFrame({
-    'Column': ['Quantity', 'Price Per Unit', 'Total Spent'],
-    'Before Cleaning': nan_counts_before,
-    'After Cleaning': nan_counts_after
-})
-
-nan_compare_df_melted = nan_compare_df.melt(id_vars='Column', var_name='Stage', value_name='NaN Count')
-
-plt.figure(figsize=(8,4))
-sns.barplot(data=nan_compare_df_melted, x='Column', y='NaN Count', hue='Stage')
-plt.title('NaN Counts Before and After Cleaning')
-plt.tight_layout()
-plt.show()
-```
-
-### 1. Missing Values Before and After Cleaning
+###  Missing Values Before and After Cleaning
 
 ![NaN Counts Before and After Cleaning](media/nan_counts.png)
 
