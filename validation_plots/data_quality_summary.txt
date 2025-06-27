@@ -1,0 +1,59 @@
+DATA VALIDATION SUMMARY REPORT
+Generated on: 2025-06-27 16:36:43
+
+DATASET OVERVIEW:
+================
+Original Dataset:
+- Rows: 10,000
+- Columns: 8
+
+Cleaned Dataset:
+- Rows: 10,000
+- Columns: 8
+
+DATA QUALITY IMPROVEMENTS:
+=========================
+- Rows removed: 0
+- Duplicates removed: 0
+- Calculation inconsistencies fixed: 1416
+
+CLEANED DATA CHARACTERISTICS:
+===========================
+- Unique payment methods: 4
+- Unique locations: 3
+- Unique items: 9
+
+MISSING VALUES SUMMARY:
+======================
+        Column  Before Cleaning  After Cleaning
+      Quantity              479              38
+Price Per Unit              533              38
+   Total Spent              502              58
+
+TOP LOCATIONS (Cleaned Data):
+============================
+Location
+Unknown     3961
+Takeaway    3022
+In-store    3017
+
+TOP PAYMENT METHODS (Cleaned Data):
+==================================
+Payment Method
+Unknown           3178
+Digital Wallet    2291
+Credit Card       2273
+Cash              2258
+
+TOP ITEMS (Cleaned Data):
+========================
+Item
+Juice       1171
+Coffee      1165
+Salad       1148
+Cake        1139
+Sandwich    1131
+Smoothie    1096
+Cookie      1092
+Tea         1089
+Unknown      969
