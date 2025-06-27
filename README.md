@@ -23,7 +23,9 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ## Implementation of data_validation.py Output
 
-![Validation Dashboard Example](src/valisation_plots/validation_dashboard_20250627_163646.png.png)
+### Validation Dashboard Example
+
+![Validation Dashboard Example](src/validation_plots/validation_dashboard_20250627_162740.png)
 
 
 ## How to Use
