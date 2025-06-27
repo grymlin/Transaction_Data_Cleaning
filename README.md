@@ -42,6 +42,10 @@ plt.title('NaN Counts Before and After Cleaning')
 plt.tight_layout()
 plt.show()
 ```
+
+![NaN Counts Before and After Cleaning](notebooks/nan_counts.png)
+
+
 ## How to Use
 
 1. **Clone this repository.**
