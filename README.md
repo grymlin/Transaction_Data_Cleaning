@@ -8,6 +8,7 @@ This project demonstrates how to clean, validate, and visualize transaction data
 - **Data Exploration:** Examine the raw dataset to identify data quality issues, patterns, and potential outliers.
 - **Data Cleaning:** Handle missing values, fix data types, standardize categorical values, and correct inconsistencies.
 - **Data Validation:** Compare raw and cleaned data to ensure integrity, consistency, and readiness for analysis.
+- **Implementation:** The workflow is available as both Python scripts and Jupyter notebooks, allowing you to choose your preferred environment for running and reviewing the cleaning steps.
 ---
 
 ## Example Visualizations
@@ -20,13 +21,16 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ![Donut Charts of Payment Methods: Raw vs Cleaned Data](media/donut_output.png)
 
+## Implementation of data_validation.py Output
+
+![Validation Dashboard Example](src/valisation_plots/validation_dashboard_20250627_163646.png.png)
 
 
 ## How to Use
 
 1. **Clone this repository.**
 2. **Place your raw data in the `data/` folder.**
-3. **Run the Jupyter notebooks in the `notebooks/` folder step by step.**
+3. **Run the Jupyter notebooks in the `notebooks/` folder step by step, or execute the provided Python scripts.**
 4. **Review the visualizations and outputs to understand the cleaning process.**
 
 ---
