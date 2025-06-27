@@ -16,6 +16,11 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ![NaN Counts Before and After Cleaning](media/nan_counts.png)
 
+###  Donut Charts of Payment Methods: Raw vs Cleaned Data
+
+![Donut Charts of Payment Methods: Raw vs Cleaned Data](media/donut_output.png)
+
+
 
 ## How to Use
 
