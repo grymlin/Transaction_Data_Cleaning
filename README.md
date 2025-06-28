@@ -13,6 +13,12 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ## Example Visualizations
 
+
+### Validation Dashboard Example
+(data_validation.py output)
+![Validation Dashboard Example](media/validation_dashboard.png)
+
+
 ###  Missing Values Before and After Cleaning
 
 ![NaN Counts Before and After Cleaning](media/nan_counts.png)
@@ -21,11 +27,6 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ![Donut Charts of Payment Methods: Raw vs Cleaned Data](media/donut_output.png)
 
-## Implementation of data_validation.py Output
-
-### Validation Dashboard Example
-
-![Validation Dashboard Example](media/validation_dashboard.png)
 
 
 ## How to Use
