@@ -25,7 +25,7 @@ This project demonstrates how to clean, validate, and visualize transaction data
 
 ### Validation Dashboard Example
 
-![Validation Dashboard Example](../validation_plots/validation_dashboard_20250627_001753.png)
+![Validation Dashboard Example](media/validation_dashboard.png)
 
 
 ## How to Use
